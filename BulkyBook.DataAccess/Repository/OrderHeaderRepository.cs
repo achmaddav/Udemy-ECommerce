@@ -40,6 +40,7 @@ namespace BulkyBook.DataAccess.Repository
 			
             orderFromDb.SessionID = sessionId;
             orderFromDb.PaymentIntentID = paymentIntentId;
+            orderFromDb.PaymentDate = DateTime.Now;
 		} 
 	}
 }
